@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A64E0481EDF1CB800C7803B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64E0471EDF1CB800C7803B /* AppDelegate.swift */; };
+		2A64E04A1EDF1CB800C7803B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64E0491EDF1CB800C7803B /* ViewController.swift */; };
+		2A64E04D1EDF1CB800C7803B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A64E04B1EDF1CB800C7803B /* Main.storyboard */; };
+		2A64E0501EDF1CB800C7803B /* Tappy_Hands.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A64E04E1EDF1CB800C7803B /* Tappy_Hands.xcdatamodeld */; };
+		2A64E0521EDF1CB800C7803B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A64E0511EDF1CB800C7803B /* Assets.xcassets */; };
+		2A64E0551EDF1CB800C7803B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A64E0531EDF1CB800C7803B /* LaunchScreen.storyboard */; };
+		2A64E0601EDF1CB800C7803B /* Tappy_HandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64E05F1EDF1CB800C7803B /* Tappy_HandsTests.swift */; };
+		2A64E06B1EDF1CB800C7803B /* Tappy_HandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64E06A1EDF1CB800C7803B /* Tappy_HandsUITests.swift */; };
+		2A64E0791EDF5FF100C7803B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64E0781EDF5FF100C7803B /* GameViewController.swift */; };
+		2AB7D3A21EE00A0F00D8D748 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7D3A11EE00A0F00D8D748 /* EndGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A64E05C1EDF1CB800C7803B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A64E03C1EDF1CB800C7803B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A64E0431EDF1CB800C7803B;
+			remoteInfo = "Tappy Hands";
+		};
+		2A64E0671EDF1CB800C7803B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A64E03C1EDF1CB800C7803B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A64E0431EDF1CB800C7803B;
+			remoteInfo = "Tappy Hands";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A64E0441EDF1CB800C7803B /* Tappy Hands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Hands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A64E0471EDF1CB800C7803B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A64E0491EDF1CB800C7803B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A64E04C1EDF1CB800C7803B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A64E04F1EDF1CB800C7803B /* Tappy_Hands.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tappy_Hands.xcdatamodel; sourceTree = "<group>"; };
+		2A64E0511EDF1CB800C7803B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A64E0541EDF1CB800C7803B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A64E0561EDF1CB800C7803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A64E05B1EDF1CB800C7803B /* Tappy HandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tappy HandsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A64E05F1EDF1CB800C7803B /* Tappy_HandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappy_HandsTests.swift; sourceTree = "<group>"; };
+		2A64E0611EDF1CB800C7803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A64E0661EDF1CB800C7803B /* Tappy HandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tappy HandsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A64E06A1EDF1CB800C7803B /* Tappy_HandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappy_HandsUITests.swift; sourceTree = "<group>"; };
+		2A64E06C1EDF1CB800C7803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A64E0781EDF5FF100C7803B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2AB7D3A11EE00A0F00D8D748 /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A64E0411EDF1CB800C7803B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A64E0581EDF1CB800C7803B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A64E0631EDF1CB800C7803B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A64E03B1EDF1CB800C7803B = {
+			isa = PBXGroup;
+			children = (
+				2A64E0461EDF1CB800C7803B /* Tappy Hands */,
+				2A64E05E1EDF1CB800C7803B /* Tappy HandsTests */,
+				2A64E0691EDF1CB800C7803B /* Tappy HandsUITests */,
+				2A64E0451EDF1CB800C7803B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A64E0451EDF1CB800C7803B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A64E0441EDF1CB800C7803B /* Tappy Hands.app */,
+				2A64E05B1EDF1CB800C7803B /* Tappy HandsTests.xctest */,
+				2A64E0661EDF1CB800C7803B /* Tappy HandsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A64E0461EDF1CB800C7803B /* Tappy Hands */ = {
+			isa = PBXGroup;
+			children = (
+				2A64E0471EDF1CB800C7803B /* AppDelegate.swift */,
+				2A64E0491EDF1CB800C7803B /* ViewController.swift */,
+				2A64E0781EDF5FF100C7803B /* GameViewController.swift */,
+				2AB7D3A11EE00A0F00D8D748 /* EndGameViewController.swift */,
+				2A64E04B1EDF1CB800C7803B /* Main.storyboard */,
+				2A64E0511EDF1CB800C7803B /* Assets.xcassets */,
+				2A64E0531EDF1CB800C7803B /* LaunchScreen.storyboard */,
+				2A64E0561EDF1CB800C7803B /* Info.plist */,
+				2A64E04E1EDF1CB800C7803B /* Tappy_Hands.xcdatamodeld */,
+			);
+			path = "Tappy Hands";
+			sourceTree = "<group>";
+		};
+		2A64E05E1EDF1CB800C7803B /* Tappy HandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A64E05F1EDF1CB800C7803B /* Tappy_HandsTests.swift */,
+				2A64E0611EDF1CB800C7803B /* Info.plist */,
+			);
+			path = "Tappy HandsTests";
+			sourceTree = "<group>";
+		};
+		2A64E0691EDF1CB800C7803B /* Tappy HandsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A64E06A1EDF1CB800C7803B /* Tappy_HandsUITests.swift */,
+				2A64E06C1EDF1CB800C7803B /* Info.plist */,
+			);
+			path = "Tappy HandsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A64E0431EDF1CB800C7803B /* Tappy Hands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A64E06F1EDF1CB800C7803B /* Build configuration list for PBXNativeTarget "Tappy Hands" */;
+			buildPhases = (
+				2A64E0401EDF1CB800C7803B /* Sources */,
+				2A64E0411EDF1CB800C7803B /* Frameworks */,
+				2A64E0421EDF1CB800C7803B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tappy Hands";
+			productName = "Tappy Hands";
+			productReference = 2A64E0441EDF1CB800C7803B /* Tappy Hands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A64E05A1EDF1CB800C7803B /* Tappy HandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A64E0721EDF1CB800C7803B /* Build configuration list for PBXNativeTarget "Tappy HandsTests" */;
+			buildPhases = (
+				2A64E0571EDF1CB800C7803B /* Sources */,
+				2A64E0581EDF1CB800C7803B /* Frameworks */,
+				2A64E0591EDF1CB800C7803B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A64E05D1EDF1CB800C7803B /* PBXTargetDependency */,
+			);
+			name = "Tappy HandsTests";
+			productName = "Tappy HandsTests";
+			productReference = 2A64E05B1EDF1CB800C7803B /* Tappy HandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A64E0651EDF1CB800C7803B /* Tappy HandsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A64E0751EDF1CB800C7803B /* Build configuration list for PBXNativeTarget "Tappy HandsUITests" */;
+			buildPhases = (
+				2A64E0621EDF1CB800C7803B /* Sources */,
+				2A64E0631EDF1CB800C7803B /* Frameworks */,
+				2A64E0641EDF1CB800C7803B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A64E0681EDF1CB800C7803B /* PBXTargetDependency */,
+			);
+			name = "Tappy HandsUITests";
+			productName = "Tappy HandsUITests";
+			productReference = 2A64E0661EDF1CB800C7803B /* Tappy HandsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A64E03C1EDF1CB800C7803B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ayush;
+				TargetAttributes = {
+					2A64E0431EDF1CB800C7803B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4FUFV9ADLZ;
+						ProvisioningStyle = Automatic;
+					};
+					2A64E05A1EDF1CB800C7803B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4FUFV9ADLZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A64E0431EDF1CB800C7803B;
+					};
+					2A64E0651EDF1CB800C7803B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4FUFV9ADLZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A64E0431EDF1CB800C7803B;
+					};
+				};
+			};
+			buildConfigurationList = 2A64E03F1EDF1CB800C7803B /* Build configuration list for PBXProject "Tappy Hands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A64E03B1EDF1CB800C7803B;
+			productRefGroup = 2A64E0451EDF1CB800C7803B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A64E0431EDF1CB800C7803B /* Tappy Hands */,
+				2A64E05A1EDF1CB800C7803B /* Tappy HandsTests */,
+				2A64E0651EDF1CB800C7803B /* Tappy HandsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A64E0421EDF1CB800C7803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A64E0551EDF1CB800C7803B /* LaunchScreen.storyboard in Resources */,
+				2A64E0521EDF1CB800C7803B /* Assets.xcassets in Resources */,
+				2A64E04D1EDF1CB800C7803B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A64E0591EDF1CB800C7803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A64E0641EDF1CB800C7803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A64E0401EDF1CB800C7803B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A64E0791EDF5FF100C7803B /* GameViewController.swift in Sources */,
+				2A64E04A1EDF1CB800C7803B /* ViewController.swift in Sources */,
+				2AB7D3A21EE00A0F00D8D748 /* EndGameViewController.swift in Sources */,
+				2A64E0481EDF1CB800C7803B /* AppDelegate.swift in Sources */,
+				2A64E0501EDF1CB800C7803B /* Tappy_Hands.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A64E0571EDF1CB800C7803B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A64E0601EDF1CB800C7803B /* Tappy_HandsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A64E0621EDF1CB800C7803B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A64E06B1EDF1CB800C7803B /* Tappy_HandsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A64E05D1EDF1CB800C7803B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A64E0431EDF1CB800C7803B /* Tappy Hands */;
+			targetProxy = 2A64E05C1EDF1CB800C7803B /* PBXContainerItemProxy */;
+		};
+		2A64E0681EDF1CB800C7803B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A64E0431EDF1CB800C7803B /* Tappy Hands */;
+			targetProxy = 2A64E0671EDF1CB800C7803B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A64E04B1EDF1CB800C7803B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A64E04C1EDF1CB800C7803B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A64E0531EDF1CB800C7803B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A64E0541EDF1CB800C7803B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A64E06D1EDF1CB800C7803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A64E06E1EDF1CB800C7803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A64E0701EDF1CB800C7803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
+				INFOPLIST_FILE = "Tappy Hands/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyuDhi-developers.Tappy-Hands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A64E0711EDF1CB800C7803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
+				INFOPLIST_FILE = "Tappy Hands/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyuDhi-developers.Tappy-Hands";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2A64E0731EDF1CB800C7803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
+				INFOPLIST_FILE = "Tappy HandsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyuDhi-developers.Tappy-HandsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tappy Hands.app/Tappy Hands";
+			};
+			name = Debug;
+		};
+		2A64E0741EDF1CB800C7803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
+				INFOPLIST_FILE = "Tappy HandsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyuDhi-developers.Tappy-HandsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tappy Hands.app/Tappy Hands";
+			};
+			name = Release;
+		};
+		2A64E0761EDF1CB800C7803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
+				INFOPLIST_FILE = "Tappy HandsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyuDhi-developers.Tappy-HandsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tappy Hands";
+			};
+			name = Debug;
+		};
+		2A64E0771EDF1CB800C7803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
+				INFOPLIST_FILE = "Tappy HandsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyuDhi-developers.Tappy-HandsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tappy Hands";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A64E03F1EDF1CB800C7803B /* Build configuration list for PBXProject "Tappy Hands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A64E06D1EDF1CB800C7803B /* Debug */,
+				2A64E06E1EDF1CB800C7803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A64E06F1EDF1CB800C7803B /* Build configuration list for PBXNativeTarget "Tappy Hands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A64E0701EDF1CB800C7803B /* Debug */,
+				2A64E0711EDF1CB800C7803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A64E0721EDF1CB800C7803B /* Build configuration list for PBXNativeTarget "Tappy HandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A64E0731EDF1CB800C7803B /* Debug */,
+				2A64E0741EDF1CB800C7803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A64E0751EDF1CB800C7803B /* Build configuration list for PBXNativeTarget "Tappy HandsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A64E0761EDF1CB800C7803B /* Debug */,
+				2A64E0771EDF1CB800C7803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A64E04E1EDF1CB800C7803B /* Tappy_Hands.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A64E04F1EDF1CB800C7803B /* Tappy_Hands.xcdatamodel */,
+			);
+			currentVersion = 2A64E04F1EDF1CB800C7803B /* Tappy_Hands.xcdatamodel */;
+			path = Tappy_Hands.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A64E03C1EDF1CB800C7803B /* Project object */;
+}
